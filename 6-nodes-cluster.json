@@ -886,7 +886,7 @@
   "Outputs": {
     "Master1IP": {
       "Value": { "Fn::GetAtt": [ "Master1Ec2InstanceNif1", "PrimaryPrivateIpAddress" ] },
-      "Description": "IP address of master-1"
+      "Description": "IP of master-1"
     },
     "Master1FQDN": {
       "Value": { "Ref": "Master1Route53ARecord" },
@@ -898,7 +898,7 @@
     },
     "Master2IP": {
       "Value": { "Fn::GetAtt": [ "Master2Ec2InstanceNif1", "PrimaryPrivateIpAddress" ] },
-      "Description": "IP address of master-2"
+      "Description": "IP of master-2"
     },
     "Master2FQDN": {
       "Value": { "Ref": "Master2Route53ARecord" },
@@ -910,7 +910,7 @@
     },
     "Master3IP": {
       "Value": { "Fn::GetAtt": [ "Master3Ec2InstanceNif1", "PrimaryPrivateIpAddress" ] },
-      "Description": "IP address of master-3"
+      "Description": "IP of master-3"
     },
     "Master3FQDN": {
       "Value": { "Ref": "Master3Route53ARecord" },
@@ -922,7 +922,7 @@
     },
     "Worker1IP": {
       "Value": { "Fn::GetAtt": [ "Worker1Ec2InstanceNif1", "PrimaryPrivateIpAddress" ] },
-      "Description": "IP address of worker-1"
+      "Description": "IP of worker-1"
     },
     "Worker1FQDN": {
       "Value": { "Ref": "Worker1Route53ARecord" },
@@ -934,7 +934,7 @@
     },
     "Worker2IP": {
       "Value": { "Fn::GetAtt": [ "Worker2Ec2InstanceNif1", "PrimaryPrivateIpAddress" ] },
-      "Description": "IP address of worker-2"
+      "Description": "IP of worker-2"
     },
     "Worker2FQDN": {
       "Value": { "Ref": "Worker2Route53ARecord" },
@@ -946,7 +946,7 @@
     },
     "Worker3IP": {
       "Value": { "Fn::GetAtt": [ "Worker3Ec2InstanceNif1", "PrimaryPrivateIpAddress" ] },
-      "Description": "IP address of worker-3"
+      "Description": "IP of worker-3"
     },
     "Worker3FQDN": {
       "Value": { "Ref": "Worker3Route53ARecord" },
